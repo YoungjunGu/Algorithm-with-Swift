@@ -27,4 +27,12 @@ public class treeNode<T> {
             $0.depthFirstSearch(visit: visit)
         }
     }
+    
+    public func iterDFS(visit: (treeNode) -> Void) {
+        visit(self)
+        
+        for child in children {
+            child.iterDFS(visit: visit)
+        }
+    }
 }

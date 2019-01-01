@@ -38,4 +38,3 @@ root.depthFirstSearch {
         print(vertex)
     }
 }
-
