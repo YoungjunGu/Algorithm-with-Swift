@@ -56,7 +56,7 @@ extension Edge: Hashable {
 }
 
 
-public struct VetexEdgeList<T: Equatable & Hashable> {
+public struct VertexEdgeList<T: Equatable & Hashable> {
     public let vertex: Vertex<T>
     public var edges = [Edge<T>]()
     public init(vertex: Vertex<T>) {
@@ -76,3 +76,62 @@ public struct VetexEdgeList<T: Equatable & Hashable> {
         edges.append(edge)
     }
 }
+
+public struct AdjacencyListGraph<T: Equatable & Hashable> {
+    public var adjacencyLists = [VertexEdgeList<T>]()
+    
+    public var vertices: [Vertex<T>] {
+        get {
+            var vertices = [Vertex<T>]()
+            for list in adjacencyLists {
+                vertices.append(list.vertex)
+            }
+            return vertices
+        }
+    }
+    
+    public var edges: [Edge<T>] {
+        get {
+            var edges = Set<Edge<T>>()
+            for list in adjacencyLists {
+                for edge in list.edges {
+                    edges.insert(edge)
+                }
+            }
+            return Array(edges)
+        }
+    }
+    
+    //그래프에 정점 추가
+    public mutating func addVertex(data: T) -> Vertex<T> {
+        for list in adjacencyLists {
+            if list.vertex.data == data {
+                return list.vertex
+            }
+        }
+        let vertex = Vertex(data: data, index: adjacencyLists.count)
+        let additionalList = VertexEdgeList(vertex: vertex)
+        adjacencyLists.append(additionalList)
+        return vertex
+    }
+    
+    public mutating func addEdge(from: Vertex<T>, to: Vertex<T>) -> Edge<T> {
+        let edge = Edge(from: from, to: to)
+        let list = adjacencyLists[from.index]
+        
+        if list.edges.count > 0 {
+            for existingEdge in  list.edges {
+                if existingEdge == edge {
+                    return existingEdge
+                }
+            }
+            adjacencyLists[from.index].edges.append(edge)
+        } else {
+            adjacencyLists[from.index].edges = [edge]
+        }
+        return edge
+    }
+    
+    
+}
+
