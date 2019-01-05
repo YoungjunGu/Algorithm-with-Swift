@@ -16,7 +16,7 @@ public func mergeSort<T: Comparable>(_ list: [T]) -> [T] {
     
     let center = (list.count) / 2
     return merge(mergeSort([T](list[0..<center])), rightHalf: mergeSort([T](list[center..<list.count])))
-}
+}   
 
 
 private func merge<T: Comparable>(_ leftHalf: [T], rightHalf: [T]) -> [T] {
