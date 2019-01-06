@@ -84,8 +84,150 @@ extension RedBlackTreeNode {
         guard let parent = parent else {
             return
         }
-        let grand
+        //1.조부 설정 새로운 오른쪽 자식, 왼쪽 자식 판단 프로퍼티
+        let grandParent = parent.parent
+        let newRightChildsLeftChild = self.rightChild
+        var wasLeftChild = false
+        if parent === grandParent?.leftChild {
+            wasLeftChild = true
+        }
+        //2.기존의 부모가 왼쪽 자식이 된다.
+        self.leftChild = parent
+        self.leftChild?.parent = self
+        
+        //3.기존의 조부 노드가 새로운 부모 노드가 됨
+        self.parent = grandParent
+        if wasLeftChild {
+            grandParent?.leftChild = self
+        } else {
+            grandParent?.rightChild = self
+        }
+        //4.기존의 좌측 자식 요소는 새로운 좌측 자식의 우측 자식 노드가 된다.
+        self.leftChild?.rightChild = newRightChildsLeftChild
+        self.leftChild?.rightChild?.parent = self.leftChild
         
     }
+    //좌측 회전
+    public func rotateLeft() {
+        guard let parent = parent else {
+            return
+        }
+        
+        let grandParent = parent.parent
+        let newLeftChildsRightChild = self.leftChild
+        var wasLeftChild = false
+        if parent === grandParent?.leftChild {
+            wasLeftChild = true
+        }
+        
+        
+        self.rightChild = parent
+        self.rightChild?.parent = self
+        
+        self.parent = grandParent
+        if wasLeftChild {
+            grandParent?.leftChild = self
+        } else {
+            grandParent?.rightChild = self
+        }
+        
+        leftChild?.rightChild = newLeftChildsRightChild
+        leftChild?.rightChild?.parent = leftChild
+    }
+}
 
+//MARK: -삽입
+extension RedBlackTreeNode {
+    
+    //주의: 이진탐색의 속성을 유지해야한다.
+    public func insertNodeFromRoot(data: T) {
+        //root node 를 찾기 위함
+        if let _ = parent {
+            return
+        }
+        insertNode(data: data)
+    }
+    
+    private func insertNode(data: T) {
+        if data < self.data {
+            if let leftChild = leftChild {
+                leftChild.insertNode(data: data)
+            } else {
+                let newNode = RedBlackTreeNode(data: data)
+                newNode.parent = self
+                newNode.color = .red
+                leftChild = newNode
+                
+                insertionReviewStep1(node: newNode)
+            }
+        } else {
+            if let rightChild = rightChild {
+                rightChild.insertNode(data: data)
+            } else {
+                let newNode = RedBlackTreeNode(data: data)
+                newNode.parent = self
+                newNode.color = .red
+                leftChild = newNode
+                insertionReviewStep1(node: newNode)
+            }
+        }
+    }
+    
+    private func insertionReviewStep1(node: RedBlackTreeNode) {
+        if let _ = node.parent {
+            insertionReviewStep2(node: node)
+        } else {
+            node.color = .black
+        }
+    }
+    
+    private func insertionReviewStep2(node: RedBlackTreeNode) {
+        if node.parent?.color == .black {
+            return
+        }
+        insertionReviewStep3(node: node)
+    }
+    
+    private func insertionReviewStep3(node: RedBlackTreeNode) {
+        if let uncle = node.uncleNode() {
+            if uncle.color == .red {
+                node.parent?.color = .black
+                uncle.color = .black
+                if let grandParent = node.grandParentNode() {
+                    grandParent.color = .red
+                    insertionReviewStep1(node: grandParent)
+                }
+                return
+            }
+        }
+        insertionReviewStep4(node: node)
+    }
+    
+    private func insertionReviewStep4(node: RedBlackTreeNode) {
+        var node = node
+        guard let grandParent = node.grandParentNode() else {
+            return
+        }
+        if node === node.parent?.rightChild && node.parent === grandParent.leftChild {
+            node.parent?.rotateLeft()
+            node = node.leftChild!
+        } else if node === node.parent?.leftChild && node.parent === grandParent.rightChild {
+            node.parent?.rotateRight()
+            node = node.rightChild!
+        }
+        insertionReviewStep5(node: node)
+    }
+    
+    private func insertionReviewStep5(node: RedBlackTreeNode) {
+        guard let grandParent = node.grandParentNode() else {
+            return
+        }
+        node.parent?.color = .black
+        grandParent.color = .red
+        if node === node.parent?.leftChild {
+            grandParent.rotateRight()
+        } else {
+            grandParent.rotateLeft()
+        }
+    }
 }
