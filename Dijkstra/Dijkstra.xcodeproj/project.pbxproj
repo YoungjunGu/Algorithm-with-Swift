@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF1E60DB21E2347E00024150 /* DijkstraGaph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E60DA21E2347E00024150 /* DijkstraGaph.swift */; };
+		EF1E60DB21E2347E00024150 /* DijkstraGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E60DA21E2347E00024150 /* DijkstraGraph.swift */; };
 		EF1E60E221E2354300024150 /* DijkstraComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E60E121E2354300024150 /* DijkstraComponent.swift */; };
 		EF1E60E421E2D86B00024150 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E60E321E2D86B00024150 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		EF1E60D721E2347E00024150 /* Dijkstra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dijkstra; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1E60DA21E2347E00024150 /* DijkstraGaph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraGaph.swift; sourceTree = "<group>"; };
+		EF1E60DA21E2347E00024150 /* DijkstraGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraGraph.swift; sourceTree = "<group>"; };
 		EF1E60E121E2354300024150 /* DijkstraComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraComponent.swift; sourceTree = "<group>"; };
 		EF1E60E321E2D86B00024150 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				EF1E60E321E2D86B00024150 /* main.swift */,
-				EF1E60DA21E2347E00024150 /* DijkstraGaph.swift */,
+				EF1E60DA21E2347E00024150 /* DijkstraGraph.swift */,
 				EF1E60E121E2354300024150 /* DijkstraComponent.swift */,
 			);
 			path = Dijkstra;
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1E60DB21E2347E00024150 /* DijkstraGaph.swift in Sources */,
+				EF1E60DB21E2347E00024150 /* DijkstraGraph.swift in Sources */,
 				EF1E60E221E2354300024150 /* DijkstraComponent.swift in Sources */,
 				EF1E60E421E2D86B00024150 /* main.swift in Sources */,
 			);
