@@ -21,7 +21,7 @@ public static func dijkstraPath(startNode: DijkstraNode<T>, graph: DijkstraGraph
     startNode.distance = 0
     //현재 노드 저장
     var currentNode = startNode
-
+    var shortestDistance: Int = 0
     //도착 지점이 true 즉 방문할 때까지 반복
     while  finishNode.visited == false {
         
@@ -36,7 +36,7 @@ public static func dijkstraPath(startNode: DijkstraNode<T>, graph: DijkstraGraph
             if edge.to.distance > temporaryDistance {
                 edge.to.distance = temporaryDistance
                 edge.to.previous = currentNode
-
+                shortestDistance = temporaryDistance
             }
 
         }
@@ -54,7 +54,7 @@ public static func dijkstraPath(startNode: DijkstraNode<T>, graph: DijkstraGraph
             break
         }
     }
-
+    print("Shortest Distance: \(shortestDistance)")
     DijkstraGraph.printShortestPath(node: finishNode)
     print()
     }
