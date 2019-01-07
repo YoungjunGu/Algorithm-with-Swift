@@ -30,6 +30,6 @@ let edgeGH = DijkstraEdge(weight: 300, from: nodeG, to: nodeH)
 
 
 
-let graph = DijkstraGraph(nodes: [nodeA,nodeB,nodeC,nodeD,nodeE])
+let graph = DijkstraGraph(nodes: [nodeA,nodeB,nodeC,nodeD,nodeE,nodeF,nodeG,nodeH])
 
 DijkstraGraph.dijkstraPath(startNode: nodeA, graph: graph, finishNode: nodeH)
