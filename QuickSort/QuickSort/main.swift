@@ -26,9 +26,9 @@ func quickSort<T: Comparable>(array: inout [T], startIndex: Int, endIndex: Int) 
     if startIndex >= endIndex {
         return
     }
-    let placedItemIndex = partition(array: &array, startIndex: startIndex, endIndex: endIndex)
-    quickSort(array: &array, startIndex: startIndex, endIndex: placedItemIndex-1)
-    quickSort(array: &array, startIndex: placedItemIndex+1, endIndex: endIndex)
+    let pivot = partition(array: &array, startIndex: startIndex, endIndex: endIndex)
+    quickSort(array: &array, startIndex: startIndex, endIndex: pivot-1)
+    quickSort(array: &array, startIndex: pivot+1, endIndex: endIndex)
 }
 
 func quickSort<T: Comparable>(array: inout [T]) {
