@@ -16,4 +16,8 @@ var patternString: String = "swift"
 
 
 //bruteForce(search: pattern, in: text)
-bruteForceString(search: patternString, in: textString)
+//bruteForceString(search: patternString, in: textString)
+
+let findSubStringIndex = KnuthMorrisPartt.kmp(search: patternString, in: textString)
+
+print(findSubStringIndex)
