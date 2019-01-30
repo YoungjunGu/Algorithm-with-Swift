@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF2083372200625D00A3983B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2083362200625D00A3983B /* main.swift */; };
+		EF20834A2201486B00A3983B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2083492201486B00A3983B /* main.swift */; };
+		EF2083512201513C00A3983B /* queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2083502201513C00A3983B /* queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF2083312200625D00A3983B /* CopyFiles */ = {
+		EF2083442201486B00A3983B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF2083332200625D00A3983B /* BaekJoon_1012_유기농배추 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BaekJoon_1012_유기농배추"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF2083362200625D00A3983B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF2083462201486B00A3983B /* BaekJoon_7576_토마토 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BaekJoon_7576_토마토"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2083492201486B00A3983B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF2083502201513C00A3983B /* queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF2083302200625D00A3983B /* Frameworks */ = {
+		EF2083432201486B00A3983B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +40,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF20832A2200625D00A3983B = {
+		EF20833D2201486B00A3983B = {
 			isa = PBXGroup;
 			children = (
-				EF2083352200625D00A3983B /* BaekJoon_1012_유기농배추 */,
-				EF2083342200625D00A3983B /* Products */,
+				EF2083482201486B00A3983B /* BaekJoon_7576_토마토 */,
+				EF2083472201486B00A3983B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF2083342200625D00A3983B /* Products */ = {
+		EF2083472201486B00A3983B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF2083332200625D00A3983B /* BaekJoon_1012_유기농배추 */,
+				EF2083462201486B00A3983B /* BaekJoon_7576_토마토 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF2083352200625D00A3983B /* BaekJoon_1012_유기농배추 */ = {
+		EF2083482201486B00A3983B /* BaekJoon_7576_토마토 */ = {
 			isa = PBXGroup;
 			children = (
-				EF2083362200625D00A3983B /* main.swift */,
+				EF2083492201486B00A3983B /* main.swift */,
+				EF2083502201513C00A3983B /* queue.swift */,
 			);
-			path = "BaekJoon_1012_유기농배추";
+			path = "BaekJoon_7576_토마토";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF2083322200625D00A3983B /* BaekJoon_1012_유기농배추 */ = {
+		EF2083452201486B00A3983B /* BaekJoon_7576_토마토 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF20833A2200625D00A3983B /* Build configuration list for PBXNativeTarget "BaekJoon_1012_유기농배추" */;
+			buildConfigurationList = EF20834D2201486B00A3983B /* Build configuration list for PBXNativeTarget "BaekJoon_7576_토마토" */;
 			buildPhases = (
-				EF20832F2200625D00A3983B /* Sources */,
-				EF2083302200625D00A3983B /* Frameworks */,
-				EF2083312200625D00A3983B /* CopyFiles */,
+				EF2083422201486B00A3983B /* Sources */,
+				EF2083432201486B00A3983B /* Frameworks */,
+				EF2083442201486B00A3983B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "BaekJoon_1012_유기농배추";
-			productName = "BaekJoon_1012_유기농배추";
-			productReference = EF2083332200625D00A3983B /* BaekJoon_1012_유기농배추 */;
+			name = "BaekJoon_7576_토마토";
+			productName = "BaekJoon_7576_토마토";
+			productReference = EF2083462201486B00A3983B /* BaekJoon_7576_토마토 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF20832B2200625D00A3983B /* Project object */ = {
+		EF20833E2201486B00A3983B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "youngjun goo";
 				TargetAttributes = {
-					EF2083322200625D00A3983B = {
+					EF2083452201486B00A3983B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = EF20832E2200625D00A3983B /* Build configuration list for PBXProject "BaekJoon_1012_유기농배추" */;
+			buildConfigurationList = EF2083412201486B00A3983B /* Build configuration list for PBXProject "BaekJoon_7576_토마토" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF20832A2200625D00A3983B;
-			productRefGroup = EF2083342200625D00A3983B /* Products */;
+			mainGroup = EF20833D2201486B00A3983B;
+			productRefGroup = EF2083472201486B00A3983B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF2083322200625D00A3983B /* BaekJoon_1012_유기농배추 */,
+				EF2083452201486B00A3983B /* BaekJoon_7576_토마토 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF20832F2200625D00A3983B /* Sources */ = {
+		EF2083422201486B00A3983B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2083372200625D00A3983B /* main.swift in Sources */,
+				EF20834A2201486B00A3983B /* main.swift in Sources */,
+				EF2083512201513C00A3983B /* queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF2083382200625D00A3983B /* Debug */ = {
+		EF20834B2201486B00A3983B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		EF2083392200625D00A3983B /* Release */ = {
+		EF20834C2201486B00A3983B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +245,7 @@
 			};
 			name = Release;
 		};
-		EF20833B2200625D00A3983B /* Debug */ = {
+		EF20834E2201486B00A3983B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		EF20833C2200625D00A3983B /* Release */ = {
+		EF20834F2201486B00A3983B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,25 +268,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF20832E2200625D00A3983B /* Build configuration list for PBXProject "BaekJoon_1012_유기농배추" */ = {
+		EF2083412201486B00A3983B /* Build configuration list for PBXProject "BaekJoon_7576_토마토" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF2083382200625D00A3983B /* Debug */,
-				EF2083392200625D00A3983B /* Release */,
+				EF20834B2201486B00A3983B /* Debug */,
+				EF20834C2201486B00A3983B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF20833A2200625D00A3983B /* Build configuration list for PBXNativeTarget "BaekJoon_1012_유기농배추" */ = {
+		EF20834D2201486B00A3983B /* Build configuration list for PBXNativeTarget "BaekJoon_7576_토마토" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF20833B2200625D00A3983B /* Debug */,
-				EF20833C2200625D00A3983B /* Release */,
+				EF20834E2201486B00A3983B /* Debug */,
+				EF20834F2201486B00A3983B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF20832B2200625D00A3983B /* Project object */;
+	rootObject = EF20833E2201486B00A3983B /* Project object */;
 }
