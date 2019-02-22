@@ -26,6 +26,7 @@ var backY: [Int] = [0, -1, 0, 1]
 var clean: Int = 0
 
 
+
 if let read = read {
     let stringArray = read.components(separatedBy: " ")
     M = Int(stringArray[0])!
@@ -97,7 +98,8 @@ public func DFS(x: Int, y: Int, dir: Int) {
 
 DFS(x: r, y: c, dir: d)
 
+
 print(clean)
-print()
+
 
 
