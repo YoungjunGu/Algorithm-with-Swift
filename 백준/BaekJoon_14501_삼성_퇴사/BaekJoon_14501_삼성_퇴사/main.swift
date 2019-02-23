@@ -32,10 +32,14 @@ func retire() {
     for i in 0..<N {
         //i == current day selection
         nextDay = i
-        if ti[nextDay] + i <= N - 1 {
-            while ti[nextDay] + nextDay <= N - 1 && nextDay <= N - 1 {
+        if ti[nextDay] + i < N {
+            while ti[nextDay] + nextDay <= N {
+                print("i : \(i), nextDay: \(nextDay)")
                 dp[i] += pi[nextDay]
                 nextDay += ti[nextDay]
+                if nextDay >= N {
+                    break
+                }
             }
         }
     }
