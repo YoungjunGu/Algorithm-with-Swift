@@ -20,3 +20,11 @@
 [`백준`](https://www.acmicpc.net/)<br>
 [`Swift 이론 정리 개인블로그`](https://blog.naver.com/guyeongjun)<br>
 [`Swift로 푼 백준`](https://github.com/gaki2745/Algorithm-with-Swift/tree/master/%EB%B0%B1%EC%A4%80)
+
+</br>
+
+## 프로그래머스  
+
+|문제 이름|소스|출처|풀이|
+|:---|:---|:---|:---|
+|N으로표현|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/N으로표현/N으로표현/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42895)|DFS|
