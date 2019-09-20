@@ -29,3 +29,4 @@
 |:---|:---|:---|:---|
 |N으로표현|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/N으로표현/N으로표현/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42895)|DFS|
 |가장먼노드|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/가장먼노드/가장먼노드/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/49189)|BFS|
+|섬연결하기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/섬연결하기/섬연결하기/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42861)|Greedy(Kruskal)|
