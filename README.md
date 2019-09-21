@@ -30,3 +30,32 @@
 |N으로표현|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/N으로표현/N으로표현/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42895)|DFS|
 |가장먼노드|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/가장먼노드/가장먼노드/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/49189)|BFS|
 |섬연결하기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/섬연결하기/섬연결하기/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42861)|Greedy(Kruskal)|
+
+</br>
+
+## 백준  
+
+|문제 번호|문제 이름|소스|풀이|
+|:---|:---|:---|:---|
+|14499|삼성 SW역량 테스트: 주사위굴리기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/BaekJoon_14499_삼성_주사위굴리기/BaekJoon_14499_삼성_주사위굴리기/main.swift)|TODO: 클로저 활용|
+|14501|삼성 SW역량 테스트: 퇴사|[소스](https://github.com/gaki2745/Algorithm-with-Swift/tree/master/백준/BaekJoon_14501_삼성_퇴사/BaekJoon_14501_삼성_퇴사)|DP|
+|16234|삼성 SW역량 테스트: 인구이동|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/BaekJoon_삼성_16234/BaekJoon_삼성_16234/main.swift)|DFS|
+|14502|삼성 SW역량 테스트: 연구소|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_14502_삼성_연구소/BaekJoon_14502_삼성_연구소/main.swift)|DFS&BFS([Siwft Queue구현](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_14502_삼성_연구소/BaekJoon_14502_삼성_연구소/Queue.swift))|
+|15686|삼성 SW역량 테스트: 치킨배달|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_15686_삼성_치킨배달/BaekJoon_15686_삼성_치킨배달/main.swift)|DFS&BFS|
+|14503|삼성 SW역량 테스트: 로봇청소기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BeakJoon_14503_RoboticVacuum/BeakJoon_14503_RoboticVacuum/main.swift)|DFS|
+|1697|숨바꼭질|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_1697_숨바꼭질/BaekJoon_1697_숨바꼭질/main.swift)|BFS|
+|2667|단지번호붙이기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_2667_단지번호붙이기/BaekJoon_2667_단지번호붙이기/main.swift)|DFS|
+|7576|토마토|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_7576_토마토/BaekJoon_7576_토마토/main.swift)|BFS(수정필요)|
+|1012|유기농 배|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_1012_유기농배추/BaekJoon_1012_유기농배추/main.swift)|DFS&BFS|
+|1325|효율적인 해킹|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_1325_효율적인해킹/BaekJoon_1325_효율적인해킹/main.swift)|BFS&DFS|
+|1149|RGB거리|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJoon_1149_DP_RGB거리/BaekJoon_1149_DP_RGB거리/main.swift)|DP|
+|11726|2xn 타일링|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJoon_11726_2xn타일링_DP/BaekJoon_11726_2xn타일링_DP/main.swift)|DP|
+|1463|1로 만들기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJun_1463_dp_1로만들기/BaekJun_1463_dp_1로만들기/main.swift)|DP|
+|9095|1,2,3 더하기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJun_9095_DP_1%2C2%2C3더하기/BaekJun_9095_DP_1%2C2%2C3더하기/main.swift)|DP(TODO: 클로저 활용)|
+
+
+
+
+
+
+
