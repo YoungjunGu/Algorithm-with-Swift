@@ -48,7 +48,7 @@
 |14499|삼성 SW역량 테스트: 주사위굴리기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/BaekJoon_14499_삼성_주사위굴리기/BaekJoon_14499_삼성_주사위굴리기/main.swift)|TODO: 클로저 활용|
 |14501|삼성 SW역량 테스트: 퇴사|[소스](https://github.com/gaki2745/Algorithm-with-Swift/tree/master/백준/BaekJoon_14501_삼성_퇴사/BaekJoon_14501_삼성_퇴사)|DP|
 |16234|삼성 SW역량 테스트: 인구이동|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/BaekJoon_삼성_16234/BaekJoon_삼성_16234/main.swift)|DFS|
-|14502|삼성 SW역량 테스트: 연구소|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_14502_삼성_연구소/BaekJoon_14502_삼성_연구소/main.swift)|DFS&BFS([Siwft Queue구현](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_14502_삼성_연구소/BaekJoon_14502_삼성_연구소/Queue.swift))|
+|14502|삼성 SW역량 테스트: 연구소|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_14502_삼성_연구소/BaekJoon_14502_삼성_연구소/main.swift)|DFS&BFS|
 |15686|삼성 SW역량 테스트: 치킨배달|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_15686_삼성_치킨배달/BaekJoon_15686_삼성_치킨배달/main.swift)|DFS&BFS|
 |14503|삼성 SW역량 테스트: 로봇청소기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BeakJoon_14503_RoboticVacuum/BeakJoon_14503_RoboticVacuum/main.swift)|DFS|
 |1697|숨바꼭질|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DFS:BFS/BaekJoon_1697_숨바꼭질/BaekJoon_1697_숨바꼭질/main.swift)|BFS|
