@@ -9,21 +9,29 @@
 ### Swift를 이용하여 간단한 알고리즘 부터 복잡한 알고리즘을 이해하고 학습 하기 위한 공간입니다.
 
 - Sorting Strategy
+- Hashing
 - DFS & BFS
 - Dynamic Programming 
 - BackTracking
+- Simulation
 
-[`프로그래머스`](https://programmers.co.kr)
+### Algorithm with Swift의 목적  
+
+- Swift의 전반적인 코딩학습을 위함
+- 클로저, 고차함수 등을 적극 활용한 코드 가독성과 간결성 극대화
+- C++의 STL과 같은 기능을 Swift에서 구현
+
+
 
 <br>
 
-[`백준`](https://www.acmicpc.net/)<br>
+
 [`Swift 이론 정리 개인블로그`](https://blog.naver.com/guyeongjun)<br>
 [`Swift로 푼 백준`](https://github.com/gaki2745/Algorithm-with-Swift/tree/master/%EB%B0%B1%EC%A4%80)
 
 </br>
 
-## 프로그래머스  
+## [`프로그래머스`](https://programmers.co.kr)  
 
 |문제 이름|소스|출처|풀이|
 |:---|:---|:---|:---|
@@ -33,7 +41,7 @@
 
 </br>
 
-## 백준  
+## [`백준`](https://www.acmicpc.net/)
 
 |문제 번호|문제 이름|소스|풀이|
 |:---|:---|:---|:---|
