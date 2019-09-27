@@ -40,6 +40,9 @@
 |섬연결하기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/섬연결하기/섬연결하기/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42861)|Greedy(Kruskal)|
 |입국심사|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_입국심사/Programmers_입국심사/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/43238)|BinarySearch|
 |멀리뛰기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_멀리뛰기/Programmers_멀리뛰기/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/12914)|DP|
+|가장긴팰린드롬|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_가장긴팰린드롬/Programmers_가장긴팰린드롬/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/12904)|규칙찾기|
+|디스크컨트롤러|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_디스크컨트롤러/Programmers_디스크컨트롤러/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42627)|heap|
+
 
 </br>
 
@@ -62,10 +65,3 @@
 |11726|2xn 타일링|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJoon_11726_2xn타일링_DP/BaekJoon_11726_2xn타일링_DP/main.swift)|DP|
 |1463|1로 만들기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJun_1463_dp_1로만들기/BaekJun_1463_dp_1로만들기/main.swift)|DP|
 |9095|1,2,3 더하기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/백준/DynmicProgramming/BaekJun_9095_DP_1%2C2%2C3더하기/BaekJun_9095_DP_1%2C2%2C3더하기/main.swift)|DP(TODO: 클로저 활용)|
-
-
-
-
-
-
-
