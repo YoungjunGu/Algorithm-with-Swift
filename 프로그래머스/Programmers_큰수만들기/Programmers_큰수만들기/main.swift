@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 func solution(_ number:String, _ k:Int) -> String {
     let numbers: [Character] = number + []
     var str = [Int](repeating: 0 , count: numbers.count - k)
@@ -38,12 +36,24 @@ func combination(_ number:[Character],_ k: Int, str: inout [Int], target: Int, n
         combination(number, k - 1, str: &str, target: target + 1, n: n, index: index + 1, list: &list)
         combination(number, k, str: &str, target: target + 1, n: n, index: index, list: &list)
     }
-    
 }
+
+extension String {
+    subscript(r: Range<Int>) -> String {
+        let start = self.index(self.startIndex, offsetBy: r.lowerBound)
+        let end = self.index(self.startIndex, offsetBy:  r.upperBound)
+        
+        return String(self[start..<end])
+    }
+}
+
 
 
 let number = "4177252841"
 let k = 4
 
 print(solution(number, k))
+
+
+print(number[0..<1])
 

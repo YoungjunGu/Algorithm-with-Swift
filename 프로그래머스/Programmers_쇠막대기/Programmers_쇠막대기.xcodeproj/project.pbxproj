@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF85FDF323607652008AAE37 /* solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85FDF223607652008AAE37 /* solution2.swift */; };
-		EFAC9586235F571C0013C259 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC9585235F571C0013C259 /* main.swift */; };
+		EF85FE1623609969008AAE37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85FE1523609969008AAE37 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EFAC9580235F571C0013C259 /* CopyFiles */ = {
+		EF85FE1023609968008AAE37 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF85FDF223607652008AAE37 /* solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solution2.swift; sourceTree = "<group>"; };
-		EFAC9582235F571C0013C259 /* Programmers_큰수만들기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programmers_큰수만들기"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFAC9585235F571C0013C259 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF85FE1223609968008AAE37 /* Programmers_쇠막대기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programmers_쇠막대기"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85FE1523609969008AAE37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EFAC957F235F571C0013C259 /* Frameworks */ = {
+		EF85FE0F23609968008AAE37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,67 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EFAC9579235F571C0013C259 = {
+		EF85FE0923609968008AAE37 = {
 			isa = PBXGroup;
 			children = (
-				EFAC9584235F571C0013C259 /* Programmers_큰수만들기 */,
-				EFAC9583235F571C0013C259 /* Products */,
+				EF85FE1423609968008AAE37 /* Programmers_쇠막대기 */,
+				EF85FE1323609968008AAE37 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EFAC9583235F571C0013C259 /* Products */ = {
+		EF85FE1323609968008AAE37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFAC9582235F571C0013C259 /* Programmers_큰수만들기 */,
+				EF85FE1223609968008AAE37 /* Programmers_쇠막대기 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EFAC9584235F571C0013C259 /* Programmers_큰수만들기 */ = {
+		EF85FE1423609968008AAE37 /* Programmers_쇠막대기 */ = {
 			isa = PBXGroup;
 			children = (
-				EFAC9585235F571C0013C259 /* main.swift */,
-				EF85FDF223607652008AAE37 /* solution2.swift */,
+				EF85FE1523609969008AAE37 /* main.swift */,
 			);
-			path = "Programmers_큰수만들기";
+			path = "Programmers_쇠막대기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EFAC9581235F571C0013C259 /* Programmers_큰수만들기 */ = {
+		EF85FE1123609968008AAE37 /* Programmers_쇠막대기 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFAC9589235F571C0013C259 /* Build configuration list for PBXNativeTarget "Programmers_큰수만들기" */;
+			buildConfigurationList = EF85FE1923609969008AAE37 /* Build configuration list for PBXNativeTarget "Programmers_쇠막대기" */;
 			buildPhases = (
-				EFAC957E235F571C0013C259 /* Sources */,
-				EFAC957F235F571C0013C259 /* Frameworks */,
-				EFAC9580235F571C0013C259 /* CopyFiles */,
+				EF85FE0E23609968008AAE37 /* Sources */,
+				EF85FE0F23609968008AAE37 /* Frameworks */,
+				EF85FE1023609968008AAE37 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Programmers_큰수만들기";
-			productName = "Programmers_큰수만들기";
-			productReference = EFAC9582235F571C0013C259 /* Programmers_큰수만들기 */;
+			name = "Programmers_쇠막대기";
+			productName = "Programmers_쇠막대기";
+			productReference = EF85FE1223609968008AAE37 /* Programmers_쇠막대기 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EFAC957A235F571C0013C259 /* Project object */ = {
+		EF85FE0A23609968008AAE37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "youngjun goo";
 				TargetAttributes = {
-					EFAC9581235F571C0013C259 = {
+					EF85FE1123609968008AAE37 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = EFAC957D235F571C0013C259 /* Build configuration list for PBXProject "Programmers_큰수만들기" */;
+			buildConfigurationList = EF85FE0D23609968008AAE37 /* Build configuration list for PBXProject "Programmers_쇠막대기" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,30 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = EFAC9579235F571C0013C259;
-			productRefGroup = EFAC9583235F571C0013C259 /* Products */;
+			mainGroup = EF85FE0923609968008AAE37;
+			productRefGroup = EF85FE1323609968008AAE37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EFAC9581235F571C0013C259 /* Programmers_큰수만들기 */,
+				EF85FE1123609968008AAE37 /* Programmers_쇠막대기 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EFAC957E235F571C0013C259 /* Sources */ = {
+		EF85FE0E23609968008AAE37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFAC9586235F571C0013C259 /* main.swift in Sources */,
-				EF85FDF323607652008AAE37 /* solution2.swift in Sources */,
+				EF85FE1623609969008AAE37 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EFAC9587235F571C0013C259 /* Debug */ = {
+		EF85FE1723609969008AAE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		EFAC9588235F571C0013C259 /* Release */ = {
+		EF85FE1823609969008AAE37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +240,7 @@
 			};
 			name = Release;
 		};
-		EFAC958A235F571C0013C259 /* Debug */ = {
+		EF85FE1A23609969008AAE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		EFAC958B235F571C0013C259 /* Release */ = {
+		EF85FE1B23609969008AAE37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -269,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EFAC957D235F571C0013C259 /* Build configuration list for PBXProject "Programmers_큰수만들기" */ = {
+		EF85FE0D23609968008AAE37 /* Build configuration list for PBXProject "Programmers_쇠막대기" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFAC9587235F571C0013C259 /* Debug */,
-				EFAC9588235F571C0013C259 /* Release */,
+				EF85FE1723609969008AAE37 /* Debug */,
+				EF85FE1823609969008AAE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFAC9589235F571C0013C259 /* Build configuration list for PBXNativeTarget "Programmers_큰수만들기" */ = {
+		EF85FE1923609969008AAE37 /* Build configuration list for PBXNativeTarget "Programmers_쇠막대기" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFAC958A235F571C0013C259 /* Debug */,
-				EFAC958B235F571C0013C259 /* Release */,
+				EF85FE1A23609969008AAE37 /* Debug */,
+				EF85FE1B23609969008AAE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EFAC957A235F571C0013C259 /* Project object */;
+	rootObject = EF85FE0A23609968008AAE37 /* Project object */;
 }
