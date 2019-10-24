@@ -12,7 +12,7 @@ func solution(_ arrangement:String) -> Int {
     var count: Int = 0
     var stack: [String] = []
     let replacingArr = arrangement.replacingOccurrences(of: "()", with: "0")
-    
+    print(replacingArr)
     replacingArr.forEach { (element) in
         if element == ")" && !stack.isEmpty {
             _ = stack.popLast()
