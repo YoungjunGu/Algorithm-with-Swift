@@ -42,6 +42,33 @@
 |멀리뛰기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_멀리뛰기/Programmers_멀리뛰기/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/12914)|DP|
 |가장긴팰린드롬|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_가장긴팰린드롬/Programmers_가장긴팰린드롬/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/12904)|규칙찾기|
 |디스크컨트롤러|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_디스크컨트롤러/Programmers_디스크컨트롤러/main.swift)|[출처](https://programmers.co.kr/learn/courses/30/lessons/42627)|heap|
+|2017서머코딩_기지국설치|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_2017서머코딩_기지국설치/Programmers_2017서머코딩_기지국설치/main.swift)|[출처](https://programmers.co.kr)||
+|2017서머코딩_배달|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_2017서머코딩_배달/Programmers_2017서머코딩_배달/main.swift)|[출처](https://programmers.co.kr)||
+|2017서머코딩_소수만들기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_2017서머코딩_소수만들기/Programmers_2017서머코딩_소수만들기/main.swift)|[출처](https://programmers.co.kr)||
+|2018카카오_캐시|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_2018카카오_캐시/Programmers_2018카카오_캐시/main.swift)|[출처](https://programmers.co.kr)|[숏코딩](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_2018카카오_캐시/Programmers_2018카카오_캐시/shortCoding.swift)|
+|JadenCase문자열만들기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_JadenCase문자열만들기/Programmers_JadenCase문자열만들기/main.swift)|[출처](https://programmers.co.kr)||
+|2018카카오_다트게임|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_kakao%5B1차%5D_다트게임/Programmers_kakao%5B1차%5D_다트게임/main.swift)|[출처](https://programmers.co.kr)|[숏코딩](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_kakao%5B1차%5D_다트게임/Programmers_kakao%5B1차%5D_다트게임/shortCoding.swift)|
+|올바른괄호|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_올바른괄호/Programmers_올바른괄호/main.swift)||
+|쇠막대기|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_쇠막대기/Programmers_쇠막대기/main.swift)||
+|위장|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_위장/Programmers_위장/main.swift)||
+|이중우선순위큐|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_이중우선순위큐/Programmers_이중우선순위큐/main.swift)||
+|2018카카오_프렌즈4블록|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_카카오1차_프렌즈4블록/Programmers_카카오1차_프렌즈4블록/main.swift)||
+|2018카카오_뉴스클러스터링|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_카카오2018_뉴스클러스터링/Programmers_카카오2018_뉴스클러스터링/main.swift)||
+|2019카카오_오픈채팅방|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_카카오2019_오픈채팅방/Programmers_카카오2019_오픈채팅방/main.swift)|[실패코드](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_카카오2019_오픈채팅방/Programmers_카카오2019_오픈채팅방/failcode.swift)|
+|2018카카오_뉴스클러스터링|[소스](https://github.com/gaki2745/Algorithm-with-Swift/blob/master/프로그래머스/Programmers_카카오2018_뉴스클러스터링/Programmers_카카오2018_뉴스클러스터링/main.swift)||
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </br>
