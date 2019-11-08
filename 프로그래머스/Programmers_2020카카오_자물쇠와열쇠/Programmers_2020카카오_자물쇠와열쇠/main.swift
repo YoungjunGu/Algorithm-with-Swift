@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  Programmers_2020카카오_자물쇠와열쇠
+//  Programmers_2020카카오_자물쇠와열쇠
 //
 //  Created by youngjun goo on 2019/11/06.
 //  Copyright © 2019 youngjun goo. All rights reserved.
@@ -10,7 +10,7 @@ import Foundation
 func solution(_ key:[[Int]], _ lock:[[Int]]) -> Bool {
     var keyMap = key
     
-    for _ in 0..<keyMap.count {
+    for _ in 0..<4 {
         if check(keyMap, lock) {
             return true
         }
